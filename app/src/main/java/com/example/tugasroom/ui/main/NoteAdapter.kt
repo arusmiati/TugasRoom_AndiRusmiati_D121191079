@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tugasroom.R
 import com.example.tugasroom.database.note.Note
+import kotlinx.android.synthetic.main.item_note.view.*
 
 class NoteAdapter(private val context: Context?, private val listener: (Note, Int) -> Unit) :
     RecyclerView.Adapter<NoteViewHolder>() {
